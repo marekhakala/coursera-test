@@ -1,0 +1,41 @@
+
+* {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.affix {
+  top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix ~ .container-fluid {
+   position: relative;
+}
+
+.menu-sections {
+  color: #FFF;
+  background: #F57F17;
+  padding: 1px 20px 8px 20px;
+}
+
+#chicken {
+  background: #F57F17;
+}
+
+#beef {
+  background: #F44336;
+}
+
+#sushi {
+  background: #2E7D32;
+}
+
+.col-md-12 {
+  margin-left: -2px;
+  margin-right: -2px;
+}
+.col-md-12, .col-sm-12 {
+  margin-bottom: 25px;
+}
